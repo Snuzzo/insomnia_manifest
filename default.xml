@@ -4,25 +4,19 @@
   <remote name="vanir"
           fetch="https://github.com/VanirAOSP/"
           review="emccann.net:8080" />
-          
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
-          
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
-          
-   <remote name="github"
+  <remote name="github"
           fetch="https://github.com/" />
-          
   <remote name="ck"
           fetch="https://github.com/CodeKill13/"
           review="" />
-          
   <remote name="ls"
           fetch="https://github.com/LiquidSmooth/" />
-          
   <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
   
