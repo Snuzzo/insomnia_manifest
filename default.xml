@@ -455,7 +455,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
 
-    <copyfile src="tools/build-codekill.sh" dest="build-codekill.sh" />
+  
     
   
 
