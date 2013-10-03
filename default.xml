@@ -429,6 +429,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r3" groups="pdk" />
+  <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="sdk" name="android_sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" groups="pdk" />
   <project path="system/core" name="platform_system_core" remote="ck" revision="jb43" groups="pdk" />
