@@ -36,19 +36,14 @@
   <project path="dalvik" name="platform_dalvik" remote="ck" revision="jb43" />
   <project path="development" name="platform_development" remote="ck" revision="jb43" />
   <project path="kernel/google/msm" name="android_kernel_google_msm" />
-  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" groups="device" remote="vanir" revision="jb43" />
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" />
   <project path="device/common" name="android_device_common" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ck" revision="cm-10.2" />
-  <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ck" revision="jb-mr2" />
-  <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="ck" revision="cm-10.2" />
-  <project path="device/htc/jewel" name="android_device_htc_jewel" />
+
+  
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ck" revision="master" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" />
@@ -56,11 +51,8 @@
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ck" revision="master" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="vanir" revision="jb43" />
   <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="vanir" revision="jb43" />
-  <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="ck" revision="master" />
   <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" />
-  <project path="device/htc/vigor" name="device_htc_vigor" remote="vanir" revision="jb43" />
-  <project path="kernel/htc/vigor-3.0" name="Flyhalf205/vigor_aosp_kernel" remote="github" revision="cm-10.2" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="jb43" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
@@ -80,22 +72,14 @@
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb43" groups="device" />
-  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" />
+
   <project path="device/samsung/msm8660-common" name="android_device_samsung_msm8660-common" remote="vanir" revision="jb43" />
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="vanir" revision="jb43" groups="device" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="device" />
   <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" groups="device" />
-  <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" groups="device" />
-  <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb43" groups="device" />
-  <project path="kernel/samsung/tuna" name="jimsth/vanir_tuna" remote="github" revision="jim_mr2" />
+
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r3" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
