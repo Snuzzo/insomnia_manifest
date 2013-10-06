@@ -44,6 +44,10 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
+  
+  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" />
+  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
+  
 
   
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" />
