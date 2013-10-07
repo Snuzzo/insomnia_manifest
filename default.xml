@@ -44,18 +44,8 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  
-  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" revision="jb43" />
-  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" revision="jb43" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" revision="jb43" groups="device" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" />
-  <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" revision="jb43" groups="tf700_device" />
-  <project path="kernel/asus/tf700t" name="android_kernel_asus_tf700t" groups="tf700_device" />
-  <project path="device/bn/common" name="device_bn_common" remote="vanir" revision="jb43" groups="Ovation_device" />
- 
-
-  
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ck" revision="master" />
   <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ck" revision="jb3" />
@@ -74,7 +64,7 @@
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" groups="GS3_device" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb3" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="vanir" revision="jb43" groups="device" />
