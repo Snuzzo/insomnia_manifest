@@ -28,7 +28,7 @@
 
   
   <project path="build" name="platform_build" remote="ck" revision="jb43" groups="pdk">
-   <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="ck" revision="jb43" groups="pdk" />
