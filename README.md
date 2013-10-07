@@ -16,3 +16,6 @@ To initialize your local repository using trees, use the following command:
 Then to sync up:
 
     repo sync -j32
+    
+    
+TO BUILD:   . build-ck.sh {DEVICE}
