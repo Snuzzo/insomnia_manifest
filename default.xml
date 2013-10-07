@@ -448,6 +448,7 @@
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-10.2" />
   <project path="manifest" name="codekill_manifest" remote="ck" revision="jb43" />
     <copyfile src="tools/build-ck.sh" dest="build-ck.sh" />
+    
   </project>
   
 </manifest>
