@@ -29,6 +29,7 @@
   
   <project path="build" name="platform_build" remote="ck" revision="jb43" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="tools/build-ck.sh" dest="build-ck.sh" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="ck" revision="jb43" groups="pdk" />
@@ -447,8 +448,6 @@
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-10.2" />
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-10.2" />
   <project path="manifest" name="codekill_manifest" remote="ck" revision="jb43" />
-    <copyfile src="tools/build-ck.sh" dest="build-ck.sh" />
+   
     
-  </project>
-  
 </manifest>
