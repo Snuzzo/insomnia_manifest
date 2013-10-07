@@ -68,14 +68,11 @@
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jfltecri" name="android_device_samsung_jfltecri" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r3" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
