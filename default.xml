@@ -446,9 +446,8 @@
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-10.2" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-10.2" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-10.2" />
-<!--  <project path="vendor/ti" name="TheMuppets/proprietary_vendor_ti" remote="github" revision="cm-10.2" /> -->
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-10.2" />
      <copyfile src="tools/build-ck.sh" dest="build-ck.sh" />
-  </project>
+  
 
 </manifest>
