@@ -450,5 +450,4 @@
     <copyfile src="tools/build-ck.sh" dest="build-ck.sh" />
   </project>
   
-
 </manifest>
