@@ -15,8 +15,6 @@
   <remote name="ck"
           fetch="https://github.com/CodeKill13/"
           review="" />
-  <remote name="ls"
-          fetch="https://github.com/LiquidSmooth/" />
   <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
 
@@ -29,7 +27,6 @@
   
   <project path="build" name="platform_build" remote="ck" revision="jb43" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="tools/build-ck.sh" dest="build-ck.sh" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="bionic" name="platform_bionic" remote="ck" revision="jb43" groups="pdk" />
@@ -411,7 +408,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="ck" revision="jb43" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb43" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb43" groups="vendor" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ck" revision="master" />
   <project path="vendor/codekill" name="platform_vendor_codekill" remote="ck" revision="jb43" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
