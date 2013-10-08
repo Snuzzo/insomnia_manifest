@@ -59,12 +59,12 @@
   <project path="kernel/lge/mako" name="lge-kernel-mako" />
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ck" revision="jb3" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ck" revision="jb3" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ck" revision="jb43" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ck" revision="jb43" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb3" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb43" />
   <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="vanir" revision="jb43" groups="device" />
