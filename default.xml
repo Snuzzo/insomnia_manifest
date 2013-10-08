@@ -62,7 +62,7 @@
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb43" />
-  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" />
+  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="ck" revision="jb43" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="vanir" revision="jb43" groups="device" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="vanir" revision="jb43" groups="device" />
