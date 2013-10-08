@@ -45,7 +45,7 @@
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ck" revision="master" />
-  <project path="device/htc/m7att" name="android_device_htc_m7att" remote="ck" revision="jb3" />
+  <project path="device/htc/m7att" name="android_device_htc_m7att" />
   <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ck" revision="master" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="vanir" revision="jb43" />
@@ -57,7 +57,7 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="ck" revision="jb43" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="ck" revision="jb43" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
