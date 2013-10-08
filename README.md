@@ -1,7 +1,7 @@
 codekill_manifest
 =================
 
-CodeKill android-4.3 is based on (VanirAOSP,AOKP,XenonHD,ParanoidAndroid,Cyanogenmod,and CodefireXexperiment!)
+CodeKill 4.3 is based on (VanirAOSP,AOKP,XenonHD,ParanoidAndroid,Cyanogenmod,CodefireXexperiment,and Linaro!)
 
 
 Thanks all credits to Team vanir for initial base source......
