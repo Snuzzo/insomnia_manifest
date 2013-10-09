@@ -286,7 +286,7 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="ck" revision="jb43" groups="pdk" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="ck" revision="jb43" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="ck" revision="jb43" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ck" revision="jb43" groups="caf" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ck" revision="jb43" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom"/>
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ck" revision="jb43" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="ck" revision="jb43" groups="caf" />
