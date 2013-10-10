@@ -45,7 +45,7 @@
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="vanir" revision="jb43" />
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" />
+  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="lw" revision="jb43" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ck" revision="master" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ck" revision="master" />
