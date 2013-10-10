@@ -397,7 +397,7 @@
   <project path="system/vold" name="platform_system_vold" remote="ck" revision="jb43" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="vendor/asus" name="prorietary_vendor_asus" remote="lw" revision="jb43" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="lw" revision="jb43" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="ck" revision="jb43" />
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb43" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
