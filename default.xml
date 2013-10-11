@@ -402,7 +402,7 @@
   <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb43" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ck" revision="master" />
-  <project path="vendor/insomnia" name="vendor_insomnia" remote="ck" revision="jb43" />
+  <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
