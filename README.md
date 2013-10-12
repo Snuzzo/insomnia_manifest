@@ -1,4 +1,4 @@
-codekill_manifest
+insomnia_manifest
 =================
 
 InsomniaROM 4.3 is based on (VanirAOSP,AOKP,XenonHD,ParanoidAndroid,Cyanogenmod,CodefireXexperiment,and Linaro!)
@@ -18,7 +18,7 @@ Init core trees without any device/kernel/vendor :
 
 Init repo with all devices, kernels and vendors supported by InsomniaROM :
 
-    $ repo init -u git://github.com/InsomniaROM/insomnia_manifest.git -b -g all,kernel,device,vendor
+    $ repo init -u git://github.com/InsomniaROM/insomnia_manifest.git -b jb43 -g all,kernel,device,vendor
 
 Init repo only for a particular device :
 
