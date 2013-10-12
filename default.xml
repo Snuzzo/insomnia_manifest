@@ -57,7 +57,7 @@
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />/>
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att" />
 <!--  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />/>-->
-<!--  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />/>-->
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote=" ck" revision="jb43" groups="notdefault,device,d2,d2tmo" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb43" groups="notdefault,kernel,d2,d2att,d2tmo" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
