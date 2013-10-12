@@ -42,23 +42,23 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="lw" revision="jb43" />
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="lw" revision="jb43" />
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ck" revision="master" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ck" revision="master" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="ck" revision="master" />
-  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="ck" revision="cm-10.2" />
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="ck" revision="cm-10.2" />
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ck" revision="cm-10.2" />
+  <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="lw" revision="jb43" groups="notdefault,device,grouper" />
+  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="lw" revision="jb43" groups="notdefault,kernel,grouper" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" groups="notdefault,kernel,m7,m7tmo" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" />
+  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" /> 
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" />
+<!--  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="ck" revision="cm-10.2" />/>-->
+<!--  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="ck" revision="cm-10.2" /> />-->
+<!--  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ck" revision="cm-10.2" />/>-->
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="lw" revision="jb43" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="lw" revision="jb43" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
-  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb43" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="lw" revision="jb43" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="lw" revision="jb43" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />/>
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att" />
+<!--  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />/>-->
+<!--  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />/>-->
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb43" groups="notdefault,kernel,d2,d2att,d2tmo" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
@@ -389,10 +389,10 @@
   <project path="system/vold" name="platform_system_vold" remote="ck" revision="jb43" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="lw" revision="jb43" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="ck" revision="jb43" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="lw" revision="jb43" groups="notdefault,vendor,asus" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="ck" revision="jb43" groups="notdefault,vendor,htc" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ck" revision="master" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ck" revision="master" groups="notdefault,vendor,samsung" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
