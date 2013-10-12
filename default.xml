@@ -50,11 +50,11 @@
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" />
   <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" /> 
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" />
-  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="ck" revision="cm-10.2" />
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="ck" revision="cm-10.2" /> 
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ck" revision="cm-10.2" />
+  <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="ck" revision="cm-10.2" groups="notdefault,kernel,msm8660" />
+  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="ck" revision="cm-10.2" groups="notdefault,device,msm8660,pyramid" /> 
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ck" revision="cm-10.2" groups="notdefault,device,msm8660,pyramid" />/>
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />/>
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att" />
 <!--  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />/>-->
   <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote=" ck" revision="jb43" groups="notdefault,device,d2,d2tmo" />
