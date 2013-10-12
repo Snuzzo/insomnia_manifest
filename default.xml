@@ -20,8 +20,8 @@
           fetch="git://android.git.linaro.org/" />
           
          
-  <default revision="jellybean-4.3"
-           remote="github"
+  <default revision="refs/tags/android-4.3.1_r1"
+           remote="aosp"
            sync-j="4" />
   
  
