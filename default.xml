@@ -45,8 +45,8 @@
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,kernel,endeavoru" />
-  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru" />
-  <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru,endeavoru" />
+  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavouru" />
+  <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ck" revision="cm-10.2" groups="notdefault,device,htc" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="lw" revision="jb43" groups="notdefault,device,grouper" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="lw" revision="jb43" groups="notdefault,kernel,grouper" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" groups="notdefault,kernel,m7,m7tmo" />
