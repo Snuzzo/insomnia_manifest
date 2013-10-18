@@ -44,9 +44,17 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
+  
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="ck" revision="master" groups="notdefault,kernel,lge,mako" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="ck" revision="master" groups="notdefault,device,lge,mako" /> 
+
+  
+  
+  
+  
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,kernel,endeavoru" />
- <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru" />
- <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru,endeavoru" />
+  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru" />
+  <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ck" revision="cm-10.2" groups="notdefault,device,htc,endeavoru" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="lw" revision="jb43" groups="notdefault,device,grouper" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="lw" revision="jb43" groups="notdefault,kernel,grouper" />
   <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="ck" revision="master" groups="notdefault,kernel,m7,m7tmo" />
@@ -397,6 +405,7 @@
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="ck" revision="master" groups="notdefault,vendor,samsung" />
   <project path="vendor/insomnia" name="platform_vendor_insomnia" remote="ck" revision="jb43" />
+  <project path="vendor/lge" name="vendor_lge" remote="ck" revision="master" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
