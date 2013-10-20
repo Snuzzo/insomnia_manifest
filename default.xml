@@ -33,20 +33,8 @@
   <project path="build" name="platform_build" remote="ck" revision="jb43" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
-  <project path="bionic" name="platform_bionic" remote="ck" revision="jb43" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="dalvik" name="platform_dalvik" remote="ck" revision="jb43" />
-  <project path="development" name="platform_development" remote="ck" revision="jb43" />
+  <!--Device trees for supported devices-->
   <project path="kernel/google/msm" name="android_kernel_google_msm" />
-  <project path="device/common" name="android_device_common" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="ck" revision="jb43" groups="pdk" />
-  <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
-  <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="ck" revision="master" groups="notdefault,kernel,lge,mako" />
   <project path="device/lge/mako" name="device_lge_mako" remote="ck" revision="master" groups="notdefault,device,lge,mako" /> 
   <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" remote="gh" revision="cm-10.2" />
@@ -73,6 +61,20 @@
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="ck" revision="jb43" groups="notdefault,kernel,d2,d2att,d2tmo" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
+ 
+  <!--System Specifics-->
+  <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
+  <project path="bionic" name="platform_bionic" remote="ck" revision="jb43" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
+  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
+  <project path="dalvik" name="platform_dalvik" remote="ck" revision="jb43" />
+  <project path="development" name="platform_development" remote="ck" revision="jb43" />
+  <project path="device/common" name="android_device_common" groups="pdk" />
+  <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
+  <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="ck" revision="jb43" groups="pdk" />
+  <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
+  <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
@@ -297,6 +299,8 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="ck" revision="jb43" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware-legacy" remote="ck" revision="jb43" /> 
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="ck" revision="jb43" />
+  
+  <!--Qcom hardware files-->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="ck" revision="jb43" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="ck" revision="jb43" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom"/>
@@ -312,6 +316,8 @@
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="ck" revision="jb43" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
+  
+  
   <project path="hardware/ril" name="platform_hardware_ril" remote="ck" revision="jb43" groups="pdk" />
   <project path="hardware/samsung" name="android_hardware_samsung" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
@@ -401,6 +407,8 @@
   <project path="system/vold" name="platform_system_vold" remote="ck" revision="jb43" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  
+  <!--Device Specific Vendors-->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="lw" revision="jb43" groups="notdefault,vendor,asus" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="ck" revision="jb43" groups="notdefault,vendor,htc" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
