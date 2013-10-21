@@ -38,8 +38,6 @@
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="ck" revision="master" groups="notdefault,kernel,lge,mako" />
   <project path="device/lge/mako" name="device_lge_mako" remote="ck" revision="master" groups="notdefault,device,lge,mako" />
   <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" remote="gh" revision="cm-10.2" />
-  <project path="hardware/qcom/display-legacy" name="vigor/android_hardware_qcom_display-legacy" remote="gh" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="vigor/android_hardware_qcom_media-legacy" remote="gh" revision="cm-10.2" />
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,kernel,htc,endeavoru" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru" />
   <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru" />
