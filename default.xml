@@ -37,7 +37,8 @@
   <project path="kernel/google/msm" name="android_kernel_google_msm" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="ck" revision="master" groups="notdefault,kernel,lge,mako" />
   <project path="device/lge/mako" name="device_lge_mako" remote="ck" revision="master" groups="notdefault,device,lge,mako" />
-  <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" remote="gh" revision="cm-10.2" />
+  <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" remote="gh" revision="cm-10.2" groups="notdefault,kernel,htc,vigor" />
+  <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="gh" revision="cm-10.2" groups="notdefault,kernel,htc,vigor"/>
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,kernel,htc,endeavoru" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru" />
   <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ck" revision="cm-10.2" groups="notdefault,device,endeavoru" />
@@ -49,7 +50,7 @@
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="ck" revision="master" groups="notdefault,device,m7,m7tmo" />
   <project path="kernel/htc/msm8660" name="android_kernel_htc_msm8660" remote="ck" revision="cm-10.2" groups="notdefault,kernel,msm8660" />
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="ck" revision="cm-10.2" groups="notdefault,device,pyramid" /> 
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ck" revision="cm-10.2" groups="notdefault,device,msm8660,pyramid" />
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ck" revision="cm-10.2" groups="notdefault,device,msm8660,pyramid,vigor" />
   <project path="device/sample" name="platform_device_sample" remote="ck" revision="jb43" groups="pdk" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att,d2tmo" />
   <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="lw" revision="jb43" groups="notdefault,device,d2,d2att" />
@@ -417,7 +418,6 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
-  <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="gh" revision="cm-10.2" />
   <project path="manifest" name="insomnia_manifest" remote="ck" revision="jb43" />
    
     
