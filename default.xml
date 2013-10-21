@@ -418,7 +418,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" remote="gh" revision="cm-10.2" />
-  <project path="manifest" name="insomnia_manifest" remote="ck" revision="jb43" />
+  <project path="manifest" name="Snuzzo/insomnia_manifest" remote="gh" revision="jb43" />
    
     
 </manifest>
