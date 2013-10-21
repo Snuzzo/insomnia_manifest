@@ -36,8 +36,7 @@
   <!--Device trees for supported devices-->
   <project path="kernel/google/msm" name="android_kernel_google_msm" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="ck" revision="master" groups="notdefault,kernel,lge,mako" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="ck" revision="master" groups="notdefault,device,lge,mako" /> 
-  <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" remote="gh" revision="cm-10.2" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="ck" revision="master" groups="notdefault,device,lge,mako" />
   <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" remote="gh" revision="cm-10.2" />
   <project path="hardware/qcom/display-legacy" name="vigor/android_hardware_qcom_display-legacy" remote="gh" revision="cm-10.2" />
   <project path="hardware/qcom/media-legacy" name="vigor/android_hardware_qcom_media-legacy" remote="gh" revision="cm-10.2" />
